@@ -1,0 +1,279 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/* reset css*/
+ol,ul{ list-style: none; }
+a{ outline: 0; text-decoration: none; }
+img{ border: 0; }
+* { margin: 0; padding: 0; font-family: 'Nanum Gothic', sans-serif; }
+
+#hd{
+	width: 100%;
+	height: 72px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+#main{
+	width: 1200px;
+	height: 72px;
+	margin: 0 auto;
+}
+
+#img{
+	float: left;
+}
+
+#main>ul{
+	width: 800px;
+	height: 71px;
+	float: left;
+	padding-left: 80px;
+}
+
+#main>ul>li{
+	margin-left: 40px;
+	width: 100px;
+	height: 71px;
+	float: left;
+	text-align: center;
+	line-height: 85px;
+	font-size: 20px;
+}
+
+#main>div{
+	width: 240px;
+	height: 71px;
+	float: left;
+	font-size: 14px;
+	padding-left: 80px;
+	padding-top: 40px; 
+	border-left: 1px solid #e3e3e3;
+}
+
+#main>div>a{
+	margin-left: 10px; 
+}
+
+#main>div>img{
+	margin-left: 10px; 
+}
+
+#sc{
+	width: 100%;
+	height: 2034px;
+}
+
+#boxes{
+	width: 1310px;
+	height: 1330px;
+	margin: 0 auto;
+}
+
+#boxes>div{
+	margin: 5px 5px 5px 5px;
+	float: left;
+}
+
+#img01{
+	width: 763px;
+	height: 626px;
+	position: relative;
+	overflow: hidden;
+}
+
+#img01>img{
+	height: 626px;
+}
+
+#img02{
+	width: 254px;
+	height: 308px;
+	border: 1px solid #e3e3e3;
+	padding: 24px 25px 0;
+}
+
+#bx_wrap{
+	margin-top: 48px;
+	height: 210px;
+	background: #e3e3e3;
+}
+
+#bx_view{
+	
+}
+
+
+#img03{
+	width: 254px;
+	height: 308px;
+	overflow: hidden;
+	background-image: url(../img/dringking.png);
+	background-size: cover;
+}
+
+#img04{
+	width: 254px;
+	height: 308px;
+	background: yellow;
+}
+
+#img05{
+	width: 254px;
+	height: 308px;
+	background: yellow;
+}
+
+#img06{
+	width: 318px;
+	height: 680px;
+	background: #BD87B9;
+	position: relative;
+	line-height: 300%;
+}
+
+#img06>p{
+	position: absolute;
+	font-size: 42px;
+	color: #fff;
+	left: 37px;
+	top: 45px;
+}
+
+#img06>p>span{
+	font-size: 18px;
+	color: #fff;
+	left: 37px;
+	top: 45px;
+	line-height: 110%;
+}
+
+#img06>img{
+	width: 282px;
+	height: 249px;
+	position: absolute;
+	top: 430px;
+	left: 30px;
+}
+
+#img07{
+	width: 636px;
+	height: 335px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../img/img_maxim_flant_banner.jpg);
+	background-size: cover;
+}
+
+#img07>a{
+	width: 636px;
+	height: 335px;
+	position: absolute; 
+}
+
+#img07>a>img{
+	position: absolute;
+	width: 365px;;
+	height: 188px;
+	left: 30px;
+	top: 30px;
+}
+
+#img08{
+	width: 318px;
+	height: 335px;
+	background: yellow;
+}
+
+#img09{
+	width: 318px;
+	height: 335px;
+	position: relative;
+	overflow: hidden;
+}
+
+#img09>img{
+		
+}
+
+#img10{
+	width: 636px;
+	height: 335px;
+	background: #BF657E;
+	position: relative;
+	line-height: 300%;
+}
+
+#img10>p{
+	position: absolute;
+	font-size: 42px;
+	color: #fff;
+	left: 35px;
+	top: 55px;
+}
+
+#img10>p>span{
+	font-size: 18px;
+	color: #fff;
+	left: 37px;
+	top: 45px;
+	line-height: 110%;
+}
+
+#img10>img{
+	width: 282px;
+	height: 249px;
+	position: absolute;
+	top: 80px;
+	left: 350px;
+}
+
+
+#coffee{
+	height: 710px;
+	background: blue;
+	padding-top: 50px;
+}
+
+#brand_menu{
+	width: 720px;
+	height: 32px;
+	background: black;
+	margin: 0 auto;
+}
+
+#brand_info{
+	width: 1147px;
+	height: 288px;
+	background: green;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+
+#brand_info>h1{
+	text-align: center;
+}
+
+#brand_info>p{
+	text-align: center;
+	margin-top: 40px;
+	color: white;
+	font-size: 26px;
+}
+
+
+
+#ft{
+	width: 100%;
+	height: 213px;
+}
+
+#agree{
+	height: 81px;
+	background: red;
+}
+
+#copy{
+	height: 130px;
+	background: black;
+	
+}
