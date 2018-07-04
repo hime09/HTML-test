@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/prefixfree.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+	
+	<body>
+		<header id="hd">
+			<nav id="main">
+				<img alt="logo" src="img/logo.png" id="img">
+				<ul>
+					<li>회사소개</li>
+					<li>제품안내</li>
+					<li>홍보센터</li>
+					<li>사회공헌</li>
+					<li>고객의 소리</li>
+				</ul>
+				<div>
+					<a href="">회원가입</a>
+					<a href="">로그인</a>
+					<img alt="search" src="img/ico_search.gif">
+				</div>
+			</nav>
+		</header>
+		
+		<section id="sc">
+			<div id="boxes">
+				<div id="img01">
+					<img src="img/img_banner1_2.jpg">
+				</div>
+				<div id="img02">
+					<p>HOT NEWS</p>
+					<div id="bx_wrap">
+						<div id="bx_view">
+							<ul>
+								<li></li>
+							</ul>
+						</div>
+						<div id="bx_controls"></div>
+					</div>
+				</div>
+				<div id="img03"></div>
+				<div id="img04">4</div>
+				<div id="img05">5</div>
+				<div id="img06">
+					<p>Dongsuh<br>History<br>
+						<span>식품문화를 꽃피워온<br>동서식품의 발자취</span>
+					</p>
+					<img src="img/bg_apple.jpg">
+				</div>
+				
+				<div id="img07">
+					<a href="">
+						<img src="img/txt_maxim_flant.png">
+					</a>
+				</div>
+				
+				<div id="img08">3</div>
+				<div id="img09">
+					<img src="img/20180518PM74215iimg_wz_00행복레시피.jpg">
+				</div>
+				<div id="img10">
+					<p>Food<br>Safety<br>
+						<span>안전한 식품이야기<br>식품안전센터</span>
+					</p>
+					<img src="img/bg_coffee.jpg">
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div id="coffee">
+				<div id="brand_menu"></div>
+				<div id="brand_info">
+					<h1><img alt="" src="img/img_mitte.png">
+					</h1>
+					<p>찬바람 불 때, 핫초코</p>
+				</div>
+			</div>
+		</section>
+		
+		<footer id="ft">
+			<div id="agree"></div>
+			<div id="copy"></div>
+		</footer>
+	</body>
+</html>
