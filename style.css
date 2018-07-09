@@ -40,6 +40,65 @@ img{ border: 0; }
 	font-size: 20px;
 }
 
+.menu_active{
+	width: 100%;
+	height: 340px;
+	display: none;
+	position: absolute;
+	z-index: 90;
+	margin-left: -612px;
+	background: white;
+}
+
+.menu_dropbox{
+	width: 1200px;
+	height: 340px;
+	margin: 0 auto;
+	padding-top: 40px;
+	z-index: 500;
+}
+
+.menu_dropbox2{
+	width: 1160px;
+	height: 265px;
+	margin: auto;
+	background: green;
+}
+
+.menu_tit_wrap{
+	width: 250px;
+	height: 260px;
+	text-align: left;
+	font-size: 55px;
+  display: inline-block;
+  line-height: 60px;
+  background: gold;
+}
+
+.menu_tit_wap>img{
+	width: 176px;
+	height: 133px;
+  display: inline-block;
+}
+
+.menu_list{
+	width: 425px;
+	height: 260px;
+  display: inline-block;
+  margin-right: -5px;
+  border-left: 1px solid #e3e3e3;
+  background: silver;
+}
+
+.event_wrap{
+  overflow: hidden;
+  width: 262px;
+  height: 260px;
+  display: inline-block;
+}
+
+
+
 #main>div{
 	width: 240px;
 	height: 71px;
@@ -95,11 +154,16 @@ img{ border: 0; }
 #bx_wrap{
 	margin-top: 48px;
 	height: 210px;
-	background: #e3e3e3;
 }
 
-#bx_view{
-	
+#bx_li1{
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+
+#bx_li2{
+	font-size: 14px;
+	color: #999;
 }
 
 
@@ -109,18 +173,41 @@ img{ border: 0; }
 	overflow: hidden;
 	background-image: url(../img/dringking.png);
 	background-size: cover;
+	padding: 24px 25px 0;
 }
 
 #img04{
 	width: 254px;
 	height: 308px;
-	background: yellow;
+	background: #beb5aa;
+	padding: 24px 25px 0;
+	position: relative;
+	color: white;
+}
+
+#img04>a{
+	width: 254px;
+	height: 308px;
+	position: absolute; 
+}
+
+#img04>a>img{
+	position: absolute;
+	width: 200px;
+	height: 200px;
 }
 
 #img05{
 	width: 254px;
 	height: 308px;
-	background: yellow;
+	position: relative;
+	color: white;
+}
+
+#img05>a>img{
+	width: 254px;
+	height: 308px;
+	position: absolute;
 }
 
 #img06{
@@ -181,18 +268,24 @@ img{ border: 0; }
 #img08{
 	width: 318px;
 	height: 335px;
-	background: yellow;
+	position: relative;
+	color: white;
+}
+
+#img08>a>img{
+	width: 318px;
+	height: 335px;
+	position: absolute;
 }
 
 #img09{
 	width: 318px;
 	height: 335px;
 	position: relative;
-	overflow: hidden;
-}
-
-#img09>img{
-		
+	color: white;
+	padding: 24px 25px 0;
+	background-image: url(../img/img_wz_00.jpg);
+	background-size: cover;
 }
 
 #img10{
@@ -229,51 +322,174 @@ img{ border: 0; }
 
 
 #coffee{
+	width: 100%;
 	height: 710px;
-	background: blue;
-	padding-top: 50px;
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+
+#under_bgi{
+	width: 100%;
+	height: 540px;
+	overflow: hidden;
+	background-image: url(../img/bg_prd_mitte.jpg);
+	background-size: cover;
+	position: absolute;
+}
+
+#under_main{
+	width: 1147px;	
+	height: 670px;
+	display: inline-block;
+	position: relative;
+	margin-top: 30px;
 }
 
 #brand_menu{
 	width: 720px;
 	height: 32px;
-	background: black;
 	margin: 0 auto;
+	color: white;
 }
 
-#brand_info{
-	width: 1147px;
-	height: 288px;
-	background: green;
-	margin: 0 auto;
-	padding-top: 45px;
-}
-
-#brand_info>h1{
+#brand_menu>ul{
 	text-align: center;
 }
 
-#brand_info>p{
+#brand_menu>ul>li{
+	display: inline-block;
+	font-size: 16px;
+	padding: 5px 8px;
+}
+
+#under_main>div{
+	width: 1146px;
+	height: 300px;
+}
+
+#mitte_img{
+	width: 1145px;
+	height: 335px;
+	margin: 0 auto;
+	padding-top: 45px;
+	top: 50px;
+	position: absolute;
+}
+
+#under_main>div>div>h1{
+	text-align: center;
+}
+
+#under_main>div>div>p{
 	text-align: center;
 	margin-top: 40px;
 	color: white;
 	font-size: 26px;
 }
 
+#under_main>div>ul{
+	width: 1145px;
+	height: 303px;
+	margin-top: 335px;
+	text-align: center;
+}
 
+#under_main>div>ul>li{
+	width: 260px;
+	height: 289px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+#under_main>div>ul>li>a>p>img{
+	width: 245px;
+	height: 245px;
+}
+
+
+#brand_phila{
+	display: none;
+}
+
+#brand_mitte{
+	display: block;
+}
 
 #ft{
 	width: 100%;
 	height: 213px;
+	margin-top: 100px;
+}
+
+#ft_up{
+	height: 81px;
+	border-top: 1px solid black; 
 }
 
 #agree{
+	width: 1147px;
 	height: 81px;
-	background: red;
+	margin: 0 auto;
+}
+
+#agree>ul{
+	display: inline-block;
+	padding-top: 30px;
+}
+
+#agree>ul>li{
+	display: inline-block;
+	margin-right: 5px;
+	border-left: 1px solid #333;
+	padding-left: 5px;
+}
+
+#agree>ul>li:nth-child(1){
+	color: red;
+}
+
+#link{
+	width: 657px;
+	height: 33px;
+	display: inline-block;
+	text-align: right;
+	margin-left: 100px;
+}
+
+#link>div{
+	display: inline-block;
+}
+
+#link>div>select{
+	width: 169px;
+	height: 33px;
+}
+	
+#ft_down{
+	height: 130px;
+	border-top: 1px solid #e3e3e3; 
 }
 
 #copy{
+	width: 1147px;
 	height: 130px;
-	background: black;
-	
+	margin: 0 auto;
+	font-size: 13px;
+	padding-top: 7px;
 }
+
+/* 
+@keyframes move{
+	0%{opacity:0.5};
+	100%{opacity:1};
+}
+
+.li01{
+	opacity:0.5;
+}
+
+.ani{
+	
+	opacity:1;
+} */
